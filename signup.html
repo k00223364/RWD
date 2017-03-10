@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    
+<script src="newsScripts.js"> </script>
+    <head>
+        <title>The Healthy Circle</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport"    content="width=device-width, initial-scale=1">
+
+ 
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                
+         
+                <span class="head-float-left"> <a href="index.html"><h1><img src="img/greenCircle1.jpg" width= "91" height= "92" />The Healthy Circle</h1>   </a></span>
+                    
+                
+                <span class="head-float-right"> <a href="login.html"><b>Login</b></a> 
+                </span>
+                
+                
+                <span class="head-float-right1"><a href="signup.html"><b>Sign up</b> </a>
+                </span>
+                    
+                
+                
+            </header>
+            
+            
+            <ul id="navlist">
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="naturalhealth.html">Natural Health</a></li>
+                    <li><a href="links.html">Links</a></li>
+                    <li><label class="search" >Search</label><input type="text" name="search" size="35" maxlength="100" />
+                        <button>Go</button>
+                </li> 
+                    
+            </ul>
+               
+                <div id="date"><time id="date" datetime="today"></time> </div>
+                    
+            <form id="signupForm">
+            <fieldset>
+                <label class="fname"> First Name</label>
+                <p><input type="text" name="fname" size="30"></p>
+                
+                <label class="surname"> Surname</label>
+                <p><input type="text" name="surname" size="30"></p>
+                
+                <label class="Email"> E-mail</label>
+                <p><input type="text" name="Email" size="40"></p>
+            
+               <p>Password</p>  
+                <p><input type="password" size="30">  </p>
+                
+                <p>Confirm Password</p>  
+                <p><input type="password" size="30">  </p>
+            
+                
+            
+                <p><button>Sign up</button></p>
+            
+            </fieldset>
+            </form>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div id="sitemap">
+             
+            
+                
+                <ul id="sitemapList">
+                   
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="allnews.html">All News</a></li>
+                    <li><a href="naturalhealth.html">Natural Health</a></li>
+                    <li><a href="links.html">Links</a></li>
+                   
+                  
+            </ul> 
+              
+               <div id="mail"><a href="contact.html"><img src="img/mail.ico" width="50" heigth="50"/></a></div>
+                
+                
+            </div>
+            
+            <footer>
+            <p>&copy; 2017 The Healthy Circle</p>
+            </footer>
+  
+        </div>
+            <script>
+                document.getElementById("date").innerHTML = Date();
+                //var d = new Date();
+                //var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+                //document.getElementById("date").innerHTML = days[d.getDay()] + ","+" "  + d.getDate()+" "+ d.getMonth+" " + d.getYear();
+                
+     </script>
+    </body>
+</html>

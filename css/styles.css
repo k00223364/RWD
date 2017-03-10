@@ -1,0 +1,780 @@
+
+
+
+#container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+background: white; /* For browsers that do not support gradients */
+background: linear-gradient(white, #B2D7C2); /* Standard syntax */
+    box-sizing: border-box; 
+   
+
+}
+
+body {
+    
+    background: white; /* For browsers that do not support gradients */
+background: linear-gradient(white, #B2D7C2); /* Standard syntax */
+    box-sizing: border-box; 
+}
+
+header {
+   height:140px;
+    
+}
+
+
+.head-float-left {
+    float: left;
+    font-family: "Century Gothic";
+   
+       
+    
+}
+
+.head-float-right {
+    float: right;
+    margin-top: 80px;
+    margin-left: 60px;
+  
+    
+}
+
+
+
+.head-float-right1 {
+    float: right;
+    margin-top: 80px;
+  
+    
+}
+
+
+
+h1 {
+    
+    color:darkslategrey;
+    font-weight: 100;
+}
+
+ul#navlist {
+clear: both;
+    background-color: #B2D7C2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Century Gothic";
+    border-style: solid;
+    border-width: thin;
+}
+
+ul#navlist li{
+padding: 0;
+margin: 0;
+list-style-type: none;
+display: inline;
+margin: 35px 35px 40px;
+width: 700px;
+text-align: justify;
+    
+
+}
+
+
+ul#sitemapList li{
+padding: 0;
+margin: 0;
+list-style-type: none;
+margin: 10px 10px 10px;
+width: 100px;
+text-align: justify;
+    display: inline-block;
+    text-align: center;
+     font-family: "Century Gothic";
+    font-size: 0.75em;
+    
+
+}
+
+div#mail {
+    
+    text-align: center;
+}
+
+
+
+ul#top li{
+   display: inline;
+    list-style-type: none;
+}
+
+
+a:visited {
+    text-decoration:  none;
+    
+}
+
+div#first {
+    
+    
+    float:left;
+    width:300px;
+    height: 500px;
+    border: 2px;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    
+    
+}
+
+
+
+
+div#second {    
+    
+     text-align: left;
+    float:left;
+    width: 300px;
+    height: 500px;
+    border: 2px;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+div#third {
+    
+    text-align: left;
+    float:left;
+    width: 300px;
+    height: 500px;
+    border:2px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+div#news4 {
+   
+   width:750px;
+    padding-bottom: 40px;
+    
+}
+
+div#news5 {
+   
+   width:750px;
+    padding-bottom: 40px;
+    
+}
+
+div#news6 {
+   
+   width:750px;
+    padding-bottom: 40px;
+    
+}
+
+
+div#ads {
+    
+    float:right;
+    width: 200px;
+    height: 500px;
+    border:2px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div#subarticle {
+    
+    float:left;
+    margin-left: 5px;
+    margin-right: auto;
+
+    margin-top: 100px;
+}
+
+div#sitemap {
+    
+    float:left;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-top: 50px;
+    color: black;
+    height: 150px;
+    background-color: #B2D7C2;
+    width:1250px;
+    border-style: solid;
+    border-width: thin;
+    
+}
+
+
+
+div#firstFull {
+    text-align: justify;
+    
+}
+
+div#text1{
+    
+    width: 1000px;
+  
+    
+    
+}
+
+div#date {
+    font-size: 0.9em;
+}
+
+
+footer {
+    
+    clear:both;
+    padding-top: 10px;
+    font-size: 0.8em;
+  // margin-top: 900px;
+  //  position: fixed;
+    
+}
+
+p{
+    margin-left: 5px;
+    
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:link active {
+    
+    color: black;
+}
+
+a:hover {
+    background-color: darkseagreen;
+}
+
+img.jj {
+    vertical-align: text-top;
+    float:left;
+    padding-right: 10px;
+    
+}
+
+.imgNews1 {
+    
+    display: block;
+    margin: auto;
+}
+
+.imgNews2 {
+    
+    display: block;
+    margin: auto;
+}
+
+.imgNews3 {
+    
+    display: block;
+    margin: auto;
+}
+
+.imgNews4 {
+    
+    display: block;
+    margin: auto;
+}
+
+.imgNews5 {
+    
+    display: block;
+    margin: auto;
+}
+
+.imgNews6 {
+    
+    display: block;
+    margin: auto;
+}
+
+.imgNH {
+    
+    display: block;
+    margin: auto;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.cleared {
+    
+    clear: both;
+    margin-left: 200px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.short {
+    vertical-align: middle;
+    font-size: 1.5em;
+  
+}
+
+iframe {
+text-align: center;
+}
+
+
+
+#loginForm {
+    width: 600px;
+   vertical-align: middle;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    
+  #container {
+  width: 960px;
+  
+  margin: 0 auto;
+  
+}
+    
+    body {
+        
+        background-color: green;
+    }  
+    
+    div#first {
+    
+    
+    float:left;
+    width:500px;
+    height: 500px;
+    border: 2px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+        
+    
+    
+}
+    
+    .grapes {
+        display: block;
+        margin: auto;
+    }
+    
+    
+    div#second {
+    
+    
+    float:left;
+    width:500px;
+    height: 500px;
+    border: 2px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+        
+    
+    
+}
+    
+    .autism {
+        display: block;
+        margin: auto;
+    }
+    
+    div#third {
+    
+    
+    float:left;
+    width:500px;
+    height: 500px;
+    border: 2px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+        
+    
+    
+}
+    
+    .komodo {
+        display: block;
+        margin: auto;
+    }
+    
+    div#latest {
+        width:600px;
+    } 
+    
+    
+    ul#navlist li{
+padding: 0;
+margin: 0;
+list-style-type: none;
+display: inline;
+margin: 20px 20px 20px;
+width: 700px;
+text-align: justify;
+ 
+}
+    
+  div#subarticle {
+    
+    float:left;
+    margin-left: 5px;
+    clear: both;
+
+    margin-top: 50px;
+}  
+    
+    div#sitemap {
+    
+    float:left;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-top: 50px;
+    color: black;
+    height: 150px;
+    background-color: #B2D7C2;
+    width:900px;
+    border-style: solid;
+    border-width: thin;
+    
+}
+    
+    
+
+ 
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    
+  #container {
+  width: 100%;
+  
+  margin: 0 auto;
+  
+
+
+}
+    body {
+        
+        background-color: teal;
+    }  
+    
+    div#latest {
+        width:600px;
+    }  
+    
+    
+    div#sitemap {
+        
+        width:880px;
+    }
+    
+     .cleared {
+    
+    clear: both;
+    margin-left: 30px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        width: 300px;
+    
+}
+    
+    
+ 
+}
+
+
+
+
+
+
+@media screen and (max-width: 680px) {
+    
+  #container {
+  width: 460px;
+  
+  margin: 0 auto;
+  
+  box-sizing: border-box; 
+background: red; /* For browsers that do not support gradients */
+background: linear-gradient(white, #B2D7C2); /* Standard syntax */
+    box-sizing: border-box; 
+
+}
+    body {
+        
+        background-color: lightblue;
+    }  
+    
+    
+    header img {
+        width:30%;
+        
+        
+    }
+    
+    div#date {
+        display: none;
+    }
+    
+    div#ads {
+        
+        display:none;
+    }  
+    
+        div#latest {
+        width:400px;
+    } 
+    
+    
+    div#sitemap {
+       width: 400px;
+    }
+    
+    ul#navlist {
+        
+        display: none;
+        
+    }
+    
+    .head-float-right {
+        
+        
+    }
+    
+    div#first {
+    
+    
+    float:left;
+    width:300px;
+    height: 500px;
+    border: 2px;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+        
+    
+    
+}
+    
+    .grapes {
+        display: block;
+        margin: auto;
+    }
+    
+    
+    div#second {
+    
+    
+    float:left;
+    width:300px;
+    height: 500px;
+    border: 2px;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+        
+    
+    
+}
+    
+    .autism {
+        display: block;
+        margin: auto;
+    }
+    
+    div#third {
+    
+    
+    float:left;
+    width:300px;
+    height: 500px;
+    border: 2px;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+        
+    
+    
+}
+    
+    .komodo {
+        display: block;
+        margin: auto;
+    }
+    
+    div#sitemap {
+        
+        width:400px;
+    }
+    
+    ul#sitemapList li{
+padding: 0;
+margin: 0;
+list-style-type: none;
+margin: 10px 10px 10px;
+width: 100px;
+text-align: justify;
+    display: inline;
+    text-align: center;
+     font-family: "Century Gothic";
+    font-size: 0.75em;
+    
+
+}
+   .imgNews1 {
+    
+       width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.imgNews2 {
+    
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.imgNews3 {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.imgNews4 {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.imgNews5 {
+    
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.imgNews6 {
+    
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.imgNH {
+    
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+ 
+    .cleared {
+    
+    clear: both;
+    margin-left: 60px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+        width: 300px;
+    
+}
+    
+    div#news4 {
+   
+   width:300px;
+    padding-bottom: 40px;
+    
+}
+
+div#news5 {
+   
+   width:300px;
+    padding-bottom: 40px;
+    
+}
+
+div#news6 {
+   
+   width:300px;
+    padding-bottom: 40px;
+    
+}
+    
+    h2 {
+        
+        font-size: 1.3em;
+        margin-top: 50px;
+        margin-left: 10px
+    }
+    
+    .head-float-right {
+        
+        margin-top: 0;
+    }
+    
+    .head-float-right1 {
+        
+        margin-top: 0;
+    }
+}
+
+
+
