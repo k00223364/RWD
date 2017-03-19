@@ -603,9 +603,11 @@ div#main{
 }
 
     
-    #date {
+  #date {
         display: none;
     }
+  
+  
   .sidenav {
     height: 100%;
     width: 0;
