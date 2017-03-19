@@ -877,6 +877,10 @@ div#news6 {
         
         margin-top: 0;
     }
+  
+  .recent {
+    display: none;
+  }
 }
 
 
