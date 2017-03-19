@@ -188,25 +188,45 @@ h4 {
     text-align: left;
 }
 
+div#news1 {
+   
+   width:850px;
+    padding-bottom: 40px;
+    
+}
 
+
+div#news2 {
+   
+   width:850px;
+    padding-bottom: 40px;
+    
+}
+
+div#news3 {
+   
+   width:850px;
+    padding-bottom: 40px;
+    
+}
 
 div#news4 {
    
-   width:750px;
+   width:850px;
     padding-bottom: 40px;
     
 }
 
 div#news5 {
    
-   width:750px;
+   width:850px;
     padding-bottom: 40px;
     
 }
 
 div#news6 {
    
-   width:750px;
+   width:850px;
     padding-bottom: 40px;
     
 }
