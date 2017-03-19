@@ -14,6 +14,10 @@ background: linear-gradient(white, #B2D7C2); /* Standard syntax */
 
 }
 
+.recent {
+  padding-top: 20px;
+}
+
 div#mySidenav {
     
     display: none;
