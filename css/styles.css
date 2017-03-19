@@ -188,7 +188,7 @@ h4 {
     text-align: left;
 }
 
-.news1 {
+div#news1 {
    
    width:850px;
     padding-bottom: 40px;
@@ -196,14 +196,14 @@ h4 {
 }
 
 
-.#news2 {
+div#news2 {
    
    width:850px;
     padding-bottom: 40px;
     
 }
 
-.news3 {
+div#news3 {
    
    width:850px;
     padding-bottom: 40px;
