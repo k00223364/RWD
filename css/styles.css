@@ -883,7 +883,7 @@ div#news6 {
     }
   
   .recent {
-    display: none;
+   margin-top: 40px;
   }
 }
 
