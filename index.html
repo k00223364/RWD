@@ -2,7 +2,7 @@
 
 <html>
     
-<script src="newsScripts.js"> </script>
+
     <head>
         <title>The Healthy Circle</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -26,6 +26,22 @@
                 <span class="head-float-right1"><a href="signup.html"><b>Sign up</b> </a>
                 </span>
                     
+                <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="news.html">News</a>
+  <a href="naturalhealth.html">Natural Health</a>
+  <a href="links.html">Links</a>
+</div>
+
+<div id="main">
+ 
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+</div>
+                
+                
+                
+                
                 
                 
             </header>
@@ -40,6 +56,19 @@
                     <li><label class="search" >Search</label><input type="text" name="search" size="35" maxlength="35"/><button>Go</button></li> 
                     
             </ul>
+            
+            
+            <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
                
                 <div id="date"><time id="date" datetime="today"></time> </div>
                          
