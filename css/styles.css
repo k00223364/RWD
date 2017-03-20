@@ -721,6 +721,10 @@ div#main{
         display: none;
         
     }
+  
+  ul#navlist li {
+    display: none;
+  }
     
     .head-float-right {
         
@@ -910,8 +914,25 @@ div#news6 {
     }
   
   .recent {
-   margin-top: 40px;
+   display: none;
   }
+  
+  #loginForm {
+    width: 500px;
+   vertical-align: middle;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#signupForm {
+    width: 500px;
+   vertical-align: middle;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
 }
 
 
