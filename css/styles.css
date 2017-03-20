@@ -505,6 +505,20 @@ text-align: center;
     
 }
     
+  .cleared {
+    
+    clear: both;
+    margin-left: 100px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+  
+  
+  
+  
     .komodo {
         display: block;
         margin: auto;
